@@ -1,0 +1,66 @@
+
+*{
+    margin:3px;
+    padding: 1px;
+    background-color:rgb(217, 116, 79);
+}
+header{
+    background-color:rgb(217, 116, 79);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    text-align:center;
+}
+nav ul{
+    display:none;
+    background-color:rgb(217, 116, 79);
+    text-align:center;
+    border-radius:5px;
+    border: 3px solid black;
+}
+nav:hover ul{
+    display:block;
+}
+nav ul li{
+    display:inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    color:white;
+}
+nav ul li a:hover{
+    color:red;
+}
+main{
+    background-color:rgb(217, 116, 79);
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    text-align:left;
+}
+#notifikacii{
+    border:4px solid red;
+    background-color:red;
+}
+#pregled{
+    border:4px;
+    background-color:brown;
+}
+#spalna{
+    border:4px;
+    background-color:brown;
+}
+#dnevna{
+    border:4px;
+    background-color:brown;
+}
+#kujna{
+    border:4px;
+    background-color:brown;
+}
+#gradina{
+    border:4px;
+    background-color:brown;
+}
+h2{
+    background-color: brown;
+    text-align:center;
+}
